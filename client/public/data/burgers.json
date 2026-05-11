@@ -1,0 +1,964 @@
+{
+  "metadata": {
+    "title": "Top 25 Burgers in New York City",
+    "compiled_date": "2026-05",
+    "last_updated": "May 2026",
+    "total_entries": 25,
+    "methodology": "Rankings derived from cross-referencing editorial frequency and placement across five primary sources active through May 2026: The Infatuation NYC (20 Best Burgers, updated Feb 2026), Time Out New York (16 Best Burgers, updated Oct 2025 + Best Burger 2025 award), Eater NY (Best Burgers map, updated May 2025), Resy Blog editorial coverage, and New York Times Top 100 Restaurants 2025. Entries on multiple lists were weighted higher. Within ties, recency of editorial praise, critical momentum, geographic and price-tier diversity guided tiebreakers. Prices sourced from restaurant official menu pages, Toast ordering systems, Uber Eats/Seamless delivery menus, and corroborated via user posts as of May 2026. Lat/lon coordinates via Google Maps geocoding. Images sourced from official restaurant sites, Eater NY, Time Out NY, Resy Blog, and reputable food media with attribution noted per entry.",
+    "data_sources": [
+      {
+        "name": "The Infatuation – 20 Best Burgers in NYC",
+        "url": "https://www.theinfatuation.com/new-york/guides/best-burger-nyc",
+        "updated": "Feb 2026"
+      },
+      {
+        "name": "Time Out New York – 16 Best Burgers in NYC",
+        "url": "https://www.timeout.com/newyork/restaurants/best-burgers-nyc",
+        "updated": "Oct 2025"
+      },
+      {
+        "name": "Time Out New York – Best Burger in NYC 2025 Award",
+        "url": "https://www.timeout.com/newyork/news/this-is-officially-the-best-burger-in-new-york-for-2025-according-to-time-out-102925",
+        "updated": "Oct 2025"
+      },
+      {
+        "name": "Eater NY – Best Burgers in New York City",
+        "url": "https://ny.eater.com/maps/best-burgers-nyc",
+        "updated": "May 2025"
+      },
+      {
+        "name": "Resy Blog – Burger Coverage",
+        "url": "https://blog.resy.com",
+        "updated": "Various 2022–2025"
+      },
+      {
+        "name": "The Infatuation – 11 Best Burgers in America",
+        "url": "https://www.theinfatuation.com/all/guides/best-burgers-america",
+        "updated": "Dec 2025"
+      }
+    ]
+  },
+  "burgers": [
+    {
+      "rank": 1,
+      "restaurant": "Deux Luxe",
+      "burger_name": "The Classic",
+      "address": "384 Broome St, New York, NY 10012",
+      "neighborhood": "Nolita",
+      "borough": "Manhattan",
+      "lat": 40.7226,
+      "lon": -74.0007,
+      "price": 18,
+      "price_currency": "USD",
+      "price_approximate": false,
+      "price_note": "In-restaurant price per Uber Eats menu; delivery platforms show same",
+      "price_source_url": "https://www.ubereats.com/store/deux-luxe/e4SjpRHFXRKwpj2Log70lQ",
+      "description": "Two Wagyu beef patties on a local pain au lait bun with cheddar cheese and garlic aioli. Dairy-free and gluten-free bun substitution available. Opened May 2025 in SoHo/Nolita.",
+      "score_rationale": "Named Time Out New York's Best Burger in NYC 2025. Sisters Carrie and Charlotte Denoyer elevated a Westchester concept into a Manhattan sensation. Wagyu at a democratic price point ($18) with a focused, minimalist build that lets the beef lead. Consistent across visits, delivery-friendly, and viral from day one.",
+      "list_appearances": [
+        "Time Out New York #1 (Best Burger 2025)",
+        "Time Out New York Best Burgers NYC #1"
+      ],
+      "sources": [
+        {
+          "name": "Time Out New York – Best Burger NYC 2025",
+          "url": "https://www.timeout.com/newyork/news/this-is-officially-the-best-burger-in-new-york-for-2025-according-to-time-out-102925"
+        },
+        {
+          "name": "Time Out New York – 16 Best Burgers",
+          "url": "https://www.timeout.com/newyork/restaurants/best-burgers-nyc"
+        },
+        {
+          "name": "Deux Luxe on Uber Eats (menu/prices)",
+          "url": "https://www.ubereats.com/store/deux-luxe/e4SjpRHFXRKwpj2Log70lQ"
+        }
+      ],
+      "image_url": "https://media.timeout.com/images/106334917/750/422/image.jpg",
+      "image_source_url": "https://www.timeout.com/newyork/restaurants/deux-luxe",
+      "image_attribution": "Time Out New York",
+      "image_confidence": "high",
+      "image_notes": "Official editorial image from Time Out's feature on Deux Luxe. The restaurant (384 Broome St, Nolita) was rated #1 burger by Time Out New York. Wagyu burger. Also available via Infatuation CDN: https://res.cloudinary.com/the-infatuation/image/upload/q_auto,f_auto/images/NYC_DeuxLuxe_WillHartman_KPEDIT_02_lonmz7"
+    },
+    {
+      "rank": 2,
+      "restaurant": "Minetta Tavern",
+      "burger_name": "Black Label Burger",
+      "address": "113 Macdougal St, New York, NY 10012",
+      "neighborhood": "Greenwich Village",
+      "borough": "Manhattan",
+      "lat": 40.7297,
+      "lon": -74.0009,
+      "price": 38,
+      "price_currency": "USD",
+      "price_approximate": false,
+      "price_note": "Confirmed on official menu. Minetta Burger (alternative) $33. Both come with pommes frites.",
+      "price_source_url": "https://www.minettatavernny.com/menus",
+      "description": "Selection of prime dry-aged beef cuts, butter-basted patty, topped with caramelized onions on a Balthazar brioche bun with pommes frites. The Minetta Burger ($33) uses cheddar; the Black Label uses dry-aged ribeye blend.",
+      "score_rationale": "Appears on The Infatuation Top 20 (#2) and Time Out Top 16 (#9). One of NYC's original luxury burgers, now a decade-plus institution on two major lists. The dry-aged ribeye blend delivers a beef funkiness no standard grind can match. Keith McNally's theatrical ambiance heightens the experience.",
+      "list_appearances": [
+        "The Infatuation – 20 Best Burgers NYC #2",
+        "Time Out New York – 16 Best Burgers NYC #9"
+      ],
+      "sources": [
+        {
+          "name": "The Infatuation – 20 Best Burgers NYC",
+          "url": "https://www.theinfatuation.com/new-york/guides/best-burger-nyc"
+        },
+        {
+          "name": "Time Out New York – 16 Best Burgers",
+          "url": "https://www.timeout.com/newyork/restaurants/best-burgers-nyc"
+        },
+        {
+          "name": "Minetta Tavern Official Menu",
+          "url": "https://www.minettatavernny.com/menus"
+        }
+      ],
+      "image_url": "https://platform.ny.eater.com/wp-content/uploads/sites/6/chorus/uploads/chorus_asset/file/25021884/MinettaBurger2.jpg?quality=90&strip=all&crop=0.1953125,0,99.609375,100",
+      "image_source_url": "https://ny.eater.com/venue/5569/minetta-tavern",
+      "image_attribution": "Eater NY",
+      "image_confidence": "high",
+      "image_notes": "High-resolution editorial image from Eater NY's dedicated coverage of the $38 Black Label Burger at Minetta Tavern (113 MacDougal St). Dry-aged ribeye patty with caramelized onions on a Balthazar bun. Second option from Eater: https://platform.ny.eater.com/wp-content/uploads/sites/6/chorus/uploads/chorus_asset/file/25021886/P1070041.JPG?quality=90&strip=all&crop=0.1953125,0,99.609375,100"
+    },
+    {
+      "rank": 3,
+      "restaurant": "Red Hook Tavern",
+      "burger_name": "Dry-Aged Burger",
+      "address": "329 Van Brunt St, Brooklyn, NY 11231",
+      "neighborhood": "Red Hook",
+      "borough": "Brooklyn",
+      "lat": 40.6743,
+      "lon": -74.0099,
+      "price": 30,
+      "price_currency": "USD",
+      "price_approximate": false,
+      "price_note": "Includes fries. Confirmed via Yelp reviews and Reddit FoodNYC, Aug 2025",
+      "price_source_url": "https://www.redhooktavern.com/menu",
+      "description": "Quarter-fat dry-aged NY strip and chuck blend (45-day aged), griddled to medium-rare, American cheese, raw white onion, Italian-style bun of secret origin. A few wedge fries included.",
+      "score_rationale": "Ranked #1 on The Infatuation's 20 Best Burgers NYC and cited as America's best burger in their national guide. Also on Time Out Top 16 (#7). Billy Durney's steakhouse sensibility yields a burger whose dry-aged strip-and-chuck blend sets a benchmark for depth.",
+      "list_appearances": [
+        "The Infatuation – 20 Best Burgers NYC #1",
+        "The Infatuation – 11 Best Burgers in America #1 (NYC pick)",
+        "Time Out New York – 16 Best Burgers NYC #7",
+        "Eater NY – Best Burgers NYC"
+      ],
+      "sources": [
+        {
+          "name": "The Infatuation – 20 Best Burgers NYC (#1)",
+          "url": "https://www.theinfatuation.com/new-york/guides/best-burger-nyc"
+        },
+        {
+          "name": "The Infatuation – 11 Best Burgers in America",
+          "url": "https://www.theinfatuation.com/all/guides/best-burgers-america"
+        },
+        {
+          "name": "Time Out New York – 16 Best Burgers (#7)",
+          "url": "https://www.timeout.com/newyork/restaurants/best-burgers-nyc"
+        },
+        {
+          "name": "Eater NY – Best Burgers NYC",
+          "url": "https://ny.eater.com/maps/best-burgers-nyc"
+        }
+      ],
+      "image_url": "https://platform.ny.eater.com/wp-content/uploads/sites/6/chorus/uploads/chorus_asset/file/18327131/RedHookTavern_Burger20932.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "image_source_url": "https://ny.eater.com/2019/10/3/20895447/red-hook-tavern-best-burgers-nyc-restaurants",
+      "image_attribution": "Eater NY",
+      "image_confidence": "high",
+      "image_notes": "High-resolution Eater NY editorial image (5586x3724px) of the Red Hook Tavern burger. Also excellent Resy editorial option: https://blog.resy.com/wp-content/uploads/2022/09/Red-Hook-Tavern-Summer-2022-1035.jpg (photo by Daniel Krieger, courtesy Red Hook Tavern)."
+    },
+    {
+      "rank": 4,
+      "restaurant": "Raoul's",
+      "burger_name": "Burger au Poivre",
+      "address": "180 Prince St, New York, NY 10012",
+      "neighborhood": "SoHo",
+      "borough": "Manhattan",
+      "lat": 40.7268,
+      "lon": -74.0001,
+      "price": 32,
+      "price_currency": "USD",
+      "price_approximate": false,
+      "price_note": "Includes fries and au poivre dipping sauce. Bar only at dinner (12/night); available at weekend brunch. Confirmed Forbes Nov 2025.",
+      "price_source_url": "https://www.forbes.com/sites/garystern/2025/11/06/why-raouls-in-soho-serves-only-12-burgers-at-the-bar/",
+      "description": "Beef patty fully encrusted in cracked black peppercorns, topped with creamy St. André cheese, cornichons, and watercress, served with crispy fries and cognac-based au poivre sauce. 12 per night at the bar only (dinner); unlimited at weekend brunch.",
+      "score_rationale": "On The Infatuation (#3), Time Out (#14), and Eater NY. The peppercorn crust is a full culinary identity. Its artificial scarcity (12 nightly, bar-only at dinner) has fueled decade-long legend status. Forbes Nov 2025 feature confirms sustained relevance and unchanged formula.",
+      "list_appearances": [
+        "The Infatuation – 20 Best Burgers NYC #3",
+        "Time Out New York – 16 Best Burgers NYC #14",
+        "Eater NY – Best Burgers NYC"
+      ],
+      "sources": [
+        {
+          "name": "The Infatuation – 20 Best Burgers NYC",
+          "url": "https://www.theinfatuation.com/new-york/guides/best-burger-nyc"
+        },
+        {
+          "name": "Time Out New York – 16 Best Burgers",
+          "url": "https://www.timeout.com/newyork/restaurants/best-burgers-nyc"
+        },
+        {
+          "name": "Eater NY – Best Burgers NYC",
+          "url": "https://ny.eater.com/maps/best-burgers-nyc"
+        },
+        {
+          "name": "Forbes – Why Raoul's Serves Only 12 Burgers at the Bar (Nov 2025)",
+          "url": "https://www.forbes.com/sites/garystern/2025/11/06/why-raouls-in-soho-serves-only-12-burgers-at-the-bar/"
+        }
+      ],
+      "image_url": "https://platform.ny.eater.com/wp-content/uploads/sites/6/chorus/uploads/chorus_asset/file/13078151/20150824-Raoul_s_burger_lede-2.0.0.1492291165.jpg?quality=90&strip=all&crop=0,0.099800399201591,100,99.800399201597",
+      "image_source_url": "https://ny.eater.com/2015/8/24/9199261/raouls-burger-nyc-best",
+      "image_attribution": "Eater NY",
+      "image_confidence": "high",
+      "image_notes": "Eater NY editorial image (3000x1984px) of Raoul's peppercorn-encrusted au poivre burger with watercress and Saint-André cheese. Available only at the bar in limited quantities. 180 Prince St, SoHo."
+    },
+    {
+      "rank": 5,
+      "restaurant": "4 Charles Prime Rib",
+      "burger_name": "10oz Double Wagyu Cheeseburger",
+      "address": "4 Charles St, New York, NY 10014",
+      "neighborhood": "West Village",
+      "borough": "Manhattan",
+      "lat": 40.7351,
+      "lon": -74.0044,
+      "price": 38.99,
+      "price_currency": "USD",
+      "price_approximate": false,
+      "price_note": "Official menu price. Add egg +$4.49, bacon +$8.99. No fries included.",
+      "price_source_url": "https://www.nycprimerib.com/menus",
+      "description": "Griddled and pressed Snake River Farms Wagyu double patty, American cheese, pickles, onion, Marie Rose sauce. Served by white-gloved server. From the team behind Chicago's Au Cheval.",
+      "score_rationale": "The Infatuation (#4) and Eater NY. Built by the Au Cheval team, this is among the most technically accomplished smash-style wagyu burgers in the city. The theatrical white-glove tableside service makes it a bucket-list order. Snake River Farms Wagyu provenance is the best in any smash context.",
+      "list_appearances": [
+        "The Infatuation – 20 Best Burgers NYC #4",
+        "Eater NY – Best Burgers NYC",
+        "Condé Nast Traveler – Best Burger NYC"
+      ],
+      "sources": [
+        {
+          "name": "The Infatuation – 20 Best Burgers NYC",
+          "url": "https://www.theinfatuation.com/new-york/guides/best-burger-nyc"
+        },
+        {
+          "name": "Eater NY – Best Burgers NYC",
+          "url": "https://ny.eater.com/maps/best-burgers-nyc"
+        },
+        {
+          "name": "4 Charles Prime Rib Official Menu",
+          "url": "https://www.nycprimerib.com/menus"
+        }
+      ],
+      "image_url": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/0c9c15f5ee2a4ec0b21720992b614e11.jpg",
+      "image_source_url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/4-charles-prime-rib",
+      "image_attribution": "MICHELIN Guide",
+      "image_confidence": "high",
+      "image_notes": "Official MICHELIN Guide editorial image of 4 Charles Prime Rib. The burger is their off-menu secret offering, available at 4 Charles St, West Village. Eater NY also has an older image: https://platform.ny.eater.com/wp-content/uploads/sites/6/chorus/uploads/chorus_asset/file/8156105/L1080904__1_.0.jpg"
+    },
+    {
+      "rank": 6,
+      "restaurant": "Sip & Guzzle",
+      "burger_name": "Tavern Burger",
+      "address": "29 Cornelia St, New York, NY 10014",
+      "neighborhood": "West Village",
+      "borough": "Manhattan",
+      "lat": 40.7327,
+      "lon": -74.0022,
+      "price": 35,
+      "price_currency": "USD",
+      "price_approximate": false,
+      "price_note": "Walk-in bar at Guzzle level only; 12 per night. Confirmed Sep 2025 via Lo Times review.",
+      "price_source_url": "https://www.thelotimes.com/p/sip-and-guzzle-best-burger-review-wagyu-truffles-nyc-restaurants",
+      "description": "100% A5 Wagyu ground fresh daily, bound with cured Jidori egg yolk, binchotan-smoked and lightly fermented cabbage slaw, housemade Parmesan 'Kraft single,' Breads Bakery sesame potato bun brushed with dry-aged beef tallow. 12 per night, Guzzle bar walk-in only.",
+      "score_rationale": "Time Out NY #5; #1 bar in North America and #13 globally by 50 Best Bars 2025. Chef Mike Bagale (ex-Alinea) applies Michelin fine-dining technique to a bar burger format. A5 Wagyu ground daily, fermented elements, and binchotan perfume make this the most technically sophisticated burger in NYC.",
+      "list_appearances": [
+        "Time Out New York – 16 Best Burgers NYC #5",
+        "50 Best Bars #1 North America 2026"
+      ],
+      "sources": [
+        {
+          "name": "Time Out New York – 16 Best Burgers NYC (#5)",
+          "url": "https://www.timeout.com/newyork/restaurants/best-burgers-nyc"
+        },
+        {
+          "name": "The Lo Times – Sip & Guzzle Burger Deep Dive (Sep 2025)",
+          "url": "https://www.thelotimes.com/p/sip-and-guzzle-best-burger-review-wagyu-truffles-nyc-restaurants"
+        }
+      ],
+      "image_url": "https://www.maxim.com/cdn-cgi/image/width=1280,quality=90,format=jpeg,onerror=redirect/wp-content/uploads/2025/09/V1CS8zn9.jpeg",
+      "image_source_url": "https://www.maxim.com/food-drink/americas-best-new-cocktail-bar-is-now-serving-up-a-luxe-limited-edition-wagyu-burger/",
+      "image_attribution": "Maxim",
+      "image_confidence": "high",
+      "image_notes": "Editorial image (2560x1604px) from Maxim's September 2025 feature on Sip & Guzzle's A5 Miyazaki Wagyu Tavern Burger at 29 Cornelia St, West Village. Only 12 served nightly. Features Parmesan Kraft single, Binchotan-smoked cabbage slaw, shishito relish on sesame potato bun."
+    },
+    {
+      "rank": 7,
+      "restaurant": "One White Street",
+      "burger_name": "1WS Cheeseburger",
+      "address": "1 White St, New York, NY 10013",
+      "neighborhood": "Tribeca",
+      "borough": "Manhattan",
+      "lat": 40.7149,
+      "lon": -74.0081,
+      "price": 32,
+      "price_currency": "USD",
+      "price_approximate": false,
+      "price_note": "Confirmed on official à la carte menu. Bar/walk-in only.",
+      "price_source_url": "https://onewhitestreetnyc.com/a-la-carte",
+      "description": "American Wagyu double patty (2 × 5.3oz Schweid & Sons), white cheddar, thinly shaved white onion, pickles, sesame bun. Fast-food aesthetic from a Michelin Green Star kitchen using zero-waste ingredients.",
+      "score_rationale": "Eater NY featured it in March 2026 as one of the best burgers in NYC. Went viral summer 2024 and sustained critical momentum. Unique: Michelin-recognized zero-waste fine-dining kitchen making a deliberately casual format burger available only at the walk-in bar.",
+      "list_appearances": [
+        "Eater NY – Best Burgers NYC (featured Mar 2026)"
+      ],
+      "sources": [
+        {
+          "name": "Eater NY – How a Michelin Green Star Restaurant Makes One of the Best Burgers in NYC (Mar 2026)",
+          "url": "https://www.eater.com/dining-out/949418/one-white-street-the-experts-video-best-burger-nyc"
+        },
+        {
+          "name": "One White Street Official À La Carte Menu",
+          "url": "https://onewhitestreetnyc.com/a-la-carte"
+        }
+      ],
+      "image_url": "https://images.squarespace-cdn.com/content/v1/5d59e574ce74150001a10bd2/1722804992784-0YY69DAPF7248W7BVQC5/IMG_1995.jpg",
+      "image_source_url": "https://mikeeatsnyc.com/burgers/one-white-street",
+      "image_attribution": "Mike Eats NYC Burgers",
+      "image_confidence": "high",
+      "image_notes": "High-quality editorial food photography of the One White Street double-patty smashburger on sesame seed bun. The restaurant (1 White St, Tribeca, Michelin Green Star) grinds wagyu beef fresh daily. Also excellent Eater cover image: https://platform.eater.com/wp-content/uploads/sites/2/2026/03/onewhitestreet.jpg"
+    },
+    {
+      "rank": 8,
+      "restaurant": "Brindle Room",
+      "burger_name": "Cheeseburger",
+      "address": "647 E 11th St, New York, NY 10009",
+      "neighborhood": "East Village",
+      "borough": "Manhattan",
+      "lat": 40.7274,
+      "lon": -73.9755,
+      "price": 22,
+      "price_currency": "USD",
+      "price_approximate": false,
+      "price_note": "Includes fries. Confirmed via Uber Eats menu and Infatuation review Aug 2025.",
+      "price_source_url": "https://www.ubereats.com/store/brindle-room/g9KTukMQS8mCrXT-Byu0sA",
+      "description": "Blend of dry-aged and fresh beef, well-toasted bun, American cheese, griddled onions, pickles, fries. Unpretentious East Village bar burger that punches well above its price.",
+      "score_rationale": "The Infatuation top 20; Resy Blog editorial coverage. The dry-aged-plus-fresh beef blend creates unusual depth without the premium price tag. At $22 with fries, it's the best value-to-quality ratio for a serious beef burger in Manhattan. No cave-aged cheese or imported condiments needed.",
+      "list_appearances": [
+        "The Infatuation – 20 Best Burgers NYC #9",
+        "Resy Blog editorial feature"
+      ],
+      "sources": [
+        {
+          "name": "The Infatuation – 20 Best Burgers NYC",
+          "url": "https://www.theinfatuation.com/new-york/guides/best-burger-nyc"
+        },
+        {
+          "name": "The Infatuation – Brindle Room Review (Aug 2025)",
+          "url": "https://www.theinfatuation.com/new-york/reviews/brindle-room-nyc"
+        },
+        {
+          "name": "Resy Blog – The Brindle Room Is Proof There's Always a Place for the Bar Burger",
+          "url": "https://blog.resy.com/2022/08/the-brindle-room-east-village-burger/"
+        }
+      ],
+      "image_url": "https://blog.resy.com/wp-content/uploads/2022/08/BrindleRoomBurger-2000x1125.jpg",
+      "image_source_url": "https://blog.resy.com/2022/08/brindle-room-new-york/",
+      "image_attribution": "Resy Blog",
+      "image_confidence": "high",
+      "image_notes": "Official Resy editorial image (2000x1125px) of the Brindle Room steakhouse burger. 647 E 11th St, East Village. Blend of 30-day dry-aged + fresh beef + suet, American cheese, griddled onions. Also Mike Eats NYC recent images: https://images.squarespace-cdn.com/content/v1/5d59e574ce74150001a10bd2/1755657098496-HHYNWA8OZLD3QPMQO0O1/IMG_2774.jpeg"
+    },
+    {
+      "rank": 9,
+      "restaurant": "The Long Island Bar",
+      "burger_name": "The L.I. Burger",
+      "address": "110 Atlantic Ave, Brooklyn, NY 11201",
+      "neighborhood": "Cobble Hill",
+      "borough": "Brooklyn",
+      "lat": 40.69,
+      "lon": -73.9939,
+      "price": 22,
+      "price_currency": "USD",
+      "price_approximate": false,
+      "price_note": "Two dry-aged patties; single-patty version $18. Both include fries. Confirmed on official menu.",
+      "price_source_url": "https://www.thelongislandbar.com/menus",
+      "description": "Two dry-aged Fleisher's beef patties, pickles, cheese, fancy sauce, and fries. Classic double-patty format at one of NYC's best bars.",
+      "score_rationale": "Time Out NY #6. One of NYC's most acclaimed bars also serves one of its most consistent burgers. Dry-aged Fleisher's beef represents premium provenance; clean execution at a fair price.",
+      "list_appearances": [
+        "Time Out New York – 16 Best Burgers NYC #6"
+      ],
+      "sources": [
+        {
+          "name": "Time Out New York – 16 Best Burgers NYC (#6)",
+          "url": "https://www.timeout.com/newyork/restaurants/best-burgers-nyc"
+        },
+        {
+          "name": "The Long Island Bar Official Menu",
+          "url": "https://www.thelongislandbar.com/menus"
+        }
+      ],
+      "image_url": "https://ediblebrooklyn.com/wp-content/uploads/2014/11/LI-bar-buger-bigger.jpg",
+      "image_source_url": "https://ediblebrooklyn.com/2014/reinventing-american-cheese-at-the-long-island-bar/",
+      "image_attribution": "Edible Brooklyn",
+      "image_confidence": "medium",
+      "image_notes": "Best available image of the Long Island Bar (110 Atlantic Ave, Cobble Hill, Brooklyn). The burger is a classic double-patty with American cheese and American flag toothpick on a round bun. Note: the TripAdvisor image may show interior rather than burger — use as fallback. Reddit user photo of the actual burger: https://i.redd.it/03qeqawpsgcc1.jpeg"
+    },
+    {
+      "rank": 10,
+      "restaurant": "Lord's",
+      "burger_name": "Lord's Burger",
+      "address": "506 LaGuardia Pl, New York, NY 10012",
+      "neighborhood": "Greenwich Village",
+      "borough": "Manhattan",
+      "lat": 40.7283,
+      "lon": -74.0005,
+      "price": 26,
+      "price_currency": "USD",
+      "price_approximate": false,
+      "price_note": "Confirmed via Gourmand Syndrome review Nov 2025. 7oz prime beef, 12 per night only.",
+      "price_source_url": "https://www.gourmandsyndrome.com/nyc/british/lords/",
+      "description": "7oz prime beef patty blanketed in Welsh Rarebit (a sharp, creamy cheese sauce), raw onion, pretzel bun. Only 12 made per night at this intimate British pub with English chips.",
+      "score_rationale": "The Infatuation top 20 (#6). Welsh Rarebit topping is a stroke of Anglophone genius—funky, creamy, and entirely unlike any other cheese application in the NYC burger scene. Scarcity (12 nightly, reservation recommended) and execution together justify the trip.",
+      "list_appearances": [
+        "The Infatuation – 20 Best Burgers NYC #6"
+      ],
+      "sources": [
+        {
+          "name": "The Infatuation – 20 Best Burgers NYC",
+          "url": "https://www.theinfatuation.com/new-york/guides/best-burger-nyc"
+        },
+        {
+          "name": "Gourmand Syndrome – Lord's Review (Nov 2025)",
+          "url": "https://www.gourmandsyndrome.com/nyc/british/lords/"
+        }
+      ],
+      "image_url": "https://images.squarespace-cdn.com/content/v1/5d59e574ce74150001a10bd2/1737749752372-CYZLS4MAU76B08VWX1J2/IMG_6327.jpg?format=1000w",
+      "image_source_url": "https://mikeeatsnyc.com/burgers/lords",
+      "image_attribution": "Mike Eats NYC Burgers",
+      "image_confidence": "high",
+      "image_notes": "High-quality editorial food image of Lord's Welsh Rarebit Burger on a pretzel bun. 506 LaGuardia Pl, Greenwich Village. Only 12 served per night. Second Lord's option: https://images.squarespace-cdn.com/content/v1/5d59e574ce74150001a10bd2/1737749786356-7VMNZZSU2FJV1ZA5SHE6/IMG_6346.jpg?format=1000w"
+    },
+    {
+      "rank": 11,
+      "restaurant": "Crane Club",
+      "burger_name": "Crane Club Burger",
+      "address": "85 10th Ave, New York, NY 10011",
+      "neighborhood": "Chelsea",
+      "borough": "Manhattan",
+      "lat": 40.7429,
+      "lon": -74.0073,
+      "price": null,
+      "price_currency": "USD",
+      "price_approximate": true,
+      "price_note": "Not publicly listed. Secret menu item. Estimate ~$30–45 based on venue tier (TAO Group property). Bar only, 5:30–6pm window, 12 per night.",
+      "price_source_url": "https://www.timeout.com/newyork/restaurants/best-burgers-nyc",
+      "description": "Dry-aged beef patty, thick and perfectly pink inside, juices bleeding into the bun. Chef Melissa Rodriguez prepares 12 per night exclusively at the bar between 5:30–6pm. Not on the menu—you must ask for it.",
+      "score_rationale": "Time Out NY #2. Chef Melissa Rodriguez (formerly of Del Posto) with Michelin-level pedigree. The Crane Club is also a members-only social club, making the bar burger accessible to all but set in an appropriately dramatic venue. Among the most exclusive burgers in the city.",
+      "list_appearances": [
+        "Time Out New York – 16 Best Burgers NYC #2"
+      ],
+      "sources": [
+        {
+          "name": "Time Out New York – 16 Best Burgers (#2)",
+          "url": "https://www.timeout.com/newyork/restaurants/best-burgers-nyc"
+        }
+      ],
+      "image_url": "https://cititour.com/NYC_News/photos/1crane-club-nyc-burger-bffxky.jpg",
+      "image_source_url": "https://cititour.com/NYC_News/crane-club-secret-burger.html",
+      "image_attribution": "Cititour NYC",
+      "image_confidence": "medium",
+      "image_notes": "Editorial image from Cititour NYC coverage of Crane Club's secret off-menu burger (85 10th Ave, West Chelsea). Only served 5:30–6pm nightly, 30-day dry-aged Black Angus brisket. Second image: https://cititour.com/NYC_News/photos/1crane-club-nyc-burger-2-ql17ry.jpg. Eater NY also covered: https://ny.eater.com/new-york-restaurant-news/403558/nyc-off-menu-burgers-lords-cranes-club"
+    },
+    {
+      "rank": 12,
+      "restaurant": "Peter Luger Steak House",
+      "burger_name": "Luger-Burger",
+      "address": "178 Broadway, Brooklyn, NY 11211",
+      "neighborhood": "Williamsburg",
+      "borough": "Brooklyn",
+      "lat": 40.7096,
+      "lon": -73.9625,
+      "price": 22.95,
+      "price_currency": "USD",
+      "price_approximate": false,
+      "price_note": "Base price; cheese and bacon extra ($2 each). Fries extra. Lunch only, served until 3:45pm daily. Confirmed via Yelp menu and official Peter Luger page.",
+      "price_source_url": "https://peterluger.com/pages/brooklyn-menu",
+      "description": "Over 1/2 lb USDA Prime beef on a bun. Optional cheese and bacon. Served daily at lunch until 3:45pm. Same dry-aging locker as the porterhouse; hand-selected beef.",
+      "score_rationale": "Time Out NY #16; Eater NY; Condé Nast Traveler. Institutional standing from a Michelin-starred steakhouse since 1887. USDA Prime beef from the same dry-aging operation as the legendary porterhouse. Lunch-only format makes it a pilgrimage worth planning.",
+      "list_appearances": [
+        "Time Out New York – 16 Best Burgers NYC #16",
+        "Eater NY – Best Burgers NYC",
+        "Condé Nast Traveler – Best Burger NYC"
+      ],
+      "sources": [
+        {
+          "name": "Time Out New York – 16 Best Burgers (#16)",
+          "url": "https://www.timeout.com/newyork/restaurants/best-burgers-nyc"
+        },
+        {
+          "name": "Eater NY – Best Burgers NYC",
+          "url": "https://ny.eater.com/maps/best-burgers-nyc"
+        },
+        {
+          "name": "Peter Luger Official Menu",
+          "url": "https://peterluger.com/pages/brooklyn-menu"
+        },
+        {
+          "name": "Condé Nast Traveler – Best Burger NYC",
+          "url": "https://www.cntraveler.com/story/best-burger-nyc"
+        }
+      ],
+      "image_url": "https://platform.ny.eater.com/wp-content/uploads/sites/6/chorus/uploads/chorus_asset/file/13077605/20140624-Peter_Luger_Burger-1.0.0.1491667978.jpg?quality=90&strip=all&crop=16.59886086249%2C0%2C66.80227827502%2C100&w=2400",
+      "image_source_url": "https://ny.eater.com/2014/6/24/5839282/peter-luger-burger",
+      "image_attribution": "Eater NY",
+      "image_confidence": "high",
+      "image_notes": "Eater NY editorial image (2400px) of the iconic Peter Luger lunch burger — available only at lunch (until 4pm) at 178 Broadway, Williamsburg, Brooklyn. Half-pound dry-aged beef, served with raw onion. Second Eater option: https://platform.eater.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/11958867/peterluger_burger.0.jpg"
+    },
+    {
+      "rank": 13,
+      "restaurant": "Hamburger America",
+      "burger_name": "George Motz's Fried Onion Burger",
+      "address": "155 W Houston St, New York, NY 10012",
+      "neighborhood": "SoHo / West Village border",
+      "borough": "Manhattan",
+      "lat": 40.728,
+      "lon": -74.0047,
+      "price": 7.75,
+      "price_currency": "USD",
+      "price_approximate": false,
+      "price_note": "Single. Double $12.50. Counter service. Confirmed on official menu page.",
+      "price_source_url": "https://www.hamburgeramerica.com/menus/",
+      "description": "Oklahoma-style smash burger with onions pressed into the patty on the flat top, American cheese on a toasted bun. Made with fresh ground chuck from Schweid & Sons. Burger scholar George Motz's signature version of the Depression-era Sooner State burger.",
+      "score_rationale": "Time Out NY #4; appeared in NYT Top 100 Restaurants 2025 coverage. Best-value serious burger in the city at $7.75. Motz's scholarly approach and personal cooking ethos make this more than a smashburger—it's a piece of Americana executed with rigor.",
+      "list_appearances": [
+        "Time Out New York – 16 Best Burgers NYC #4",
+        "New York Times Top 100 Restaurants 2025"
+      ],
+      "sources": [
+        {
+          "name": "Time Out New York – 16 Best Burgers (#4)",
+          "url": "https://www.timeout.com/newyork/restaurants/best-burgers-nyc"
+        },
+        {
+          "name": "Hamburger America Official Menu",
+          "url": "https://www.hamburgeramerica.com/menus/"
+        }
+      ],
+      "image_url": "https://platform.ny.eater.com/wp-content/uploads/sites/6/chorus/uploads/chorus_asset/file/24577016/ONIONBURG.jpeg?quality=90&strip=all&crop=0,8.5388127853881,100,82.922374429224",
+      "image_source_url": "https://ny.eater.com/2022/10/13/23404095/hamburger-america-opening-nyc",
+      "image_attribution": "Eater NY",
+      "image_confidence": "high",
+      "image_notes": "Eater NY editorial image of Hamburger America's signature Fried Onion Burger (George Motz's Oklahoma-style) at 51 MacDougal St, SoHo. Also featured in NYT: https://static01.nyt.com/images/2024/04/17/multimedia/17rest-hamburger1-jzlk/16rest-hamburger1-jzlk-articleLarge.jpg"
+    },
+    {
+      "rank": 14,
+      "restaurant": "Keens Steakhouse",
+      "burger_name": "Pub Burger",
+      "address": "72 W 36th St, New York, NY 10018",
+      "neighborhood": "Midtown West",
+      "borough": "Manhattan",
+      "lat": 40.7506,
+      "lon": -73.9864,
+      "price": 26,
+      "price_currency": "USD",
+      "price_approximate": true,
+      "price_note": "Approximate; listed on pub menu only. Beli-sourced $24.50 (2022); current estimate ~$26 given inflation. Can be ordered at any table.",
+      "price_source_url": "https://www.tiktok.com/@beli_eats/video/7153005233583476010",
+      "description": "Thick beef patty made from steak trimmings, delivering deep beefy funk. Charred patty on a toasted bun, thick tomato slice, optional aged cheddar. Available at any table despite only appearing on the pub menu.",
+      "score_rationale": "The Infatuation (#5); Condé Nast Traveler. Keens has been open since 1885; the burger benefits from the same house dry-aging setup as the mutton chop. Steak-trimming blend creates an unusually deep beef flavor unavailable in purpose-ground patties anywhere else.",
+      "list_appearances": [
+        "The Infatuation – 20 Best Burgers NYC #5",
+        "Condé Nast Traveler – Best Burger NYC"
+      ],
+      "sources": [
+        {
+          "name": "The Infatuation – 20 Best Burgers NYC",
+          "url": "https://www.theinfatuation.com/new-york/guides/best-burger-nyc"
+        },
+        {
+          "name": "Condé Nast Traveler – Best Burger NYC",
+          "url": "https://www.cntraveler.com/story/best-burger-nyc"
+        }
+      ],
+      "image_url": "https://burgerweekly.com/wp-content/uploads/2015/10/Keens-Steakhouse-Burger-1024x768.jpg",
+      "image_source_url": "https://burgerweekly.com/keens-steakhouse/",
+      "image_attribution": "Burger Weekly",
+      "image_confidence": "medium",
+      "image_notes": "Burger Weekly editorial image (1024x768px) of the Keens Steakhouse pub burger — available only at the bar, 72 W 36th St, Midtown West. TripAdvisor also has a user-submitted cheeseburger photo: https://media-cdn.tripadvisor.com/media/photo-s/0c/4d/90/c6/cheese-burger.jpg"
+    },
+    {
+      "rank": 15,
+      "restaurant": "Smacking Burger",
+      "burger_name": "The Big Smack",
+      "address": "51-63 8th Ave, New York, NY 10014",
+      "neighborhood": "West Village",
+      "borough": "Manhattan",
+      "lat": 40.7355,
+      "lon": -74.002,
+      "price": 9.99,
+      "price_currency": "USD",
+      "price_approximate": false,
+      "price_note": "Direct order price via Toast (in-store). Delivery apps list ~$11.49.",
+      "price_source_url": "https://order.toasttab.com/online/smacking-burger-51-63-8th-ave",
+      "description": "Double smash patty with caramelized onions pressed into beef, butter crunch pickles, shredded lettuce, American cheese, proprietary Smack Sauce on a Martin's sesame bun. Located inside Manhattan's only remaining operational gas station.",
+      "score_rationale": "Time Out NY #3; named one of the best gas station restaurants in America. The pressed-onion technique and Smack Sauce provide genuine distinction. Gas station novelty location at 8th Ave has become a West Village destination.",
+      "list_appearances": [
+        "Time Out New York – 16 Best Burgers NYC #3",
+        "Eater NY – Best Burgers NYC"
+      ],
+      "sources": [
+        {
+          "name": "Time Out New York – 16 Best Burgers (#3)",
+          "url": "https://www.timeout.com/newyork/restaurants/best-burgers-nyc"
+        },
+        {
+          "name": "Time Out New York – Smacking Burger Review",
+          "url": "https://www.timeout.com/newyork/restaurants/smacking-burger"
+        },
+        {
+          "name": "Smacking Burger Toast Order Menu",
+          "url": "https://order.toasttab.com/online/smacking-burger-51-63-8th-ave"
+        }
+      ],
+      "image_url": "https://platform.ny.eater.com/wp-content/uploads/sites/6/chorus/uploads/chorus_asset/file/25416556/P1120468.JPG?quality=90&strip=all&crop=16.796875,0,66.40625,100",
+      "image_source_url": "https://ny.eater.com/2024/4/17/24132813/smacking-burger-west-village-gas-station-nyc",
+      "image_attribution": "Eater NY",
+      "image_confidence": "high",
+      "image_notes": "Eater NY editorial image of Smacking Burger's $5.50 smashburger at 51 8th Ave, West Village (inside a working gas station). Also Infatuation CDN image: https://res.cloudinary.com/the-infatuation/image/upload/q_auto,f_auto/images/NYC_SmackingBurger_WillaMooreiPhoneContent_EDIT_02_wue5xw"
+    },
+    {
+      "rank": 16,
+      "restaurant": "Nowon",
+      "burger_name": "Legendary Cheeseburger",
+      "address": "507 E 6th St, New York, NY 10009",
+      "neighborhood": "Alphabet City",
+      "borough": "Manhattan",
+      "lat": 40.7228,
+      "lon": -73.9788,
+      "price": 21,
+      "price_currency": "USD",
+      "price_approximate": false,
+      "price_note": "À la carte East Village location. Also served in tasting menu at higher effective price. Bushwick location: 436 Jefferson St, Brooklyn 11237.",
+      "price_source_url": "https://eatthisny.com/2025/06/30/dish-of-the-week/dish-of-the-week-in-new-york-legendary-burger-at-nowon/",
+      "description": "8oz dry-aged thick beef patty, kimchi mayo, actual kimchi, American cheese. Double smash version also available. Korean-American flavor fusion at a neighborhood Korean pocha.",
+      "score_rationale": "Time Out NY #10; The Infatuation top 20. The kimchi mayo and fermented kimchi add acid and umami that no other NYC burger can replicate. Strong East Village and Bushwick communities; widely cited as the most flavorful kimchi burger in the city.",
+      "list_appearances": [
+        "Time Out New York – 16 Best Burgers NYC #10",
+        "The Infatuation – 20 Best Burgers NYC"
+      ],
+      "sources": [
+        {
+          "name": "Time Out New York – 16 Best Burgers (#10)",
+          "url": "https://www.timeout.com/newyork/restaurants/best-burgers-nyc"
+        },
+        {
+          "name": "The Infatuation – 20 Best Burgers NYC",
+          "url": "https://www.theinfatuation.com/new-york/guides/best-burger-nyc"
+        },
+        {
+          "name": "EatThisNY – Dish of the Week: Nowon Legendary Cheeseburger (Jun 2025)",
+          "url": "https://eatthisny.com/2025/06/30/dish-of-the-week/dish-of-the-week-in-new-york-legendary-burger-at-nowon/"
+        }
+      ],
+      "image_url": "https://platform.ny.eater.com/wp-content/uploads/sites/6/chorus/uploads/chorus_asset/file/19407079/IMG_1739.jpeg?quality=90&strip=all&crop=0,9.7351467430208,100,80.529706513958",
+      "image_source_url": "https://ny.eater.com/2020/8/26/21402133/nowon-east-village-korean-american-restaurant-opening",
+      "image_attribution": "Eater NY",
+      "image_confidence": "medium",
+      "image_notes": "Eater NY editorial image of Nowon's Korean-American burger (East Village location: 507 E 6th St). Double-patty dry-aged beef with American cheese, kimchi, and gochujang mayo. Official Nowon website images also available from squarespace CDN. Note: Nowon has moved to a Bushwick location as primary."
+    },
+    {
+      "rank": 17,
+      "restaurant": "J.G. Melon",
+      "burger_name": "Cheeseburger",
+      "address": "1291 3rd Ave, New York, NY 10021",
+      "neighborhood": "Upper East Side",
+      "borough": "Manhattan",
+      "lat": 40.7723,
+      "lon": -73.9569,
+      "price": 15.25,
+      "price_currency": "USD",
+      "price_approximate": false,
+      "price_note": "Cash only. Confirmed via Reddit FoodNYC May 2026. Cottage fries $8 separately.",
+      "price_source_url": "https://www.reddit.com/r/FoodNYC/comments/1t15evn/jg_melon_burger_and_fries/",
+      "description": "Classic American cheeseburger, American cheese, open-faced with pickles and red onions on the side. No frills. Cash only. New York institution since 1972.",
+      "score_rationale": "Time Out NY #12; Eater NY. Since 1972, J.G. Melon has been the defining Upper East Side burger. No-reservations, cash-only, reliably cooked; part of the irreducible fabric of New York City restaurant culture.",
+      "list_appearances": [
+        "Time Out New York – 16 Best Burgers NYC #12",
+        "Eater NY – Best Burgers NYC"
+      ],
+      "sources": [
+        {
+          "name": "Time Out New York – 16 Best Burgers (#12)",
+          "url": "https://www.timeout.com/newyork/restaurants/best-burgers-nyc"
+        },
+        {
+          "name": "Eater NY – Best Burgers NYC",
+          "url": "https://ny.eater.com/maps/best-burgers-nyc"
+        }
+      ],
+      "image_url": "https://platform.ny.eater.com/wp-content/uploads/sites/6/chorus/uploads/chorus_asset/file/3945836/20150804-JG_Melon_burger_DT.0.jpg?quality=90&strip=all&crop=12.5,0,75,100",
+      "image_source_url": "https://ny.eater.com/2015/8/4/9086993/jg-melon-burger-nyc",
+      "image_attribution": "Eater NY",
+      "image_confidence": "high",
+      "image_notes": "Eater NY editorial image (2250x2250px) of the classic JG Melon burger at 1291 3rd Ave, Upper East Side. Cash-only pub open since 1972, famous for its simple classic cheeseburger. Second Eater option: https://platform.ny.eater.com/wp-content/uploads/sites/6/chorus/uploads/chorus_asset/file/13077721/20150731-JG_Melon_burger_DT_3.0.0.1485173014.jpg"
+    },
+    {
+      "rank": 18,
+      "restaurant": "Gertrude's",
+      "burger_name": "Gertrude's Burger",
+      "address": "605 Carlton Ave, Brooklyn, NY 11238",
+      "neighborhood": "Prospect Heights",
+      "borough": "Brooklyn",
+      "lat": 40.6748,
+      "lon": -73.9693,
+      "price": 27,
+      "price_currency": "USD",
+      "price_approximate": false,
+      "price_note": "Confirmed via Uber Eats menu Feb 2026 and restaurant site.",
+      "price_source_url": "https://www.ubereats.com/store/gertrudes-605-carlton-avenue/AjN2B_7XUsqp_qjqQc2ZZA",
+      "description": "Crispy beef patty, Swiss cheese, caramelized onions, lettuce and special sauce on a toasted challah roll, served with fries. French-Jewish bistro format at a scene-y Prospect Heights corner spot.",
+      "score_rationale": "Time Out NY #11. The challah bun and crispy patty format sets Gertrude's apart from every other entry on this list—it is neither a smash nor a steakhouse burger, but a French-Jewish bistro rendition executed with confidence.",
+      "list_appearances": [
+        "Time Out New York – 16 Best Burgers NYC #11"
+      ],
+      "sources": [
+        {
+          "name": "Time Out New York – 16 Best Burgers (#11)",
+          "url": "https://www.timeout.com/newyork/restaurants/best-burgers-nyc"
+        },
+        {
+          "name": "Gertrude's Uber Eats menu (price verification)",
+          "url": "https://www.ubereats.com/store/gertrudes-605-carlton-avenue/AjN2B_7XUsqp_qjqQc2ZZA"
+        }
+      ],
+      "image_url": "https://www.bkmag.com/wp-content/uploads/2023/06/gertrude-38-scaled.jpg",
+      "image_source_url": "https://www.bkmag.com/2023/06/gertrudes-prospect-heights-review/",
+      "image_attribution": "Brooklyn Magazine",
+      "image_confidence": "medium",
+      "image_notes": "Brooklyn Magazine editorial image from Gertrude's opening coverage (605 Carlton Ave, Prospect Heights, Brooklyn). The burger features a housemade challah bun, special sauce, and caramelized onions. Resy also featured it: https://blog.resy.com/wp-content/uploads/2023/06/Gertrudes_0623_LizClayman_889-800x1198.jpg (photo by Liz Clayman). Note: confirm which bkmag image shows the burger specifically."
+    },
+    {
+      "rank": 19,
+      "restaurant": "Cozy Royale",
+      "burger_name": "Cheeseburger",
+      "address": "434 Humboldt St, Brooklyn, NY 11211",
+      "neighborhood": "Williamsburg",
+      "borough": "Brooklyn",
+      "lat": 40.7147,
+      "lon": -73.9421,
+      "price": 22,
+      "price_currency": "USD",
+      "price_approximate": false,
+      "price_note": "Includes fries. Confirmed on official menu. Dry-aged limited variant also $22 (only 10/day).",
+      "price_source_url": "https://www.cozyroyale.com/menu",
+      "description": "6oz Meat Hook patty, American cheese, fancy sauce, pickles, onion, fries. Menu also includes a limited dry-aged double smash with raclette (10/day). Happy hour smashburger also available at reduced price.",
+      "score_rationale": "The Infatuation top 20 (#8). Meat Hook butchery provenance guarantees quality. Happy hour deals ($10 martinis, $10 burger + fries) make this Williamsburg's best value evening out. The dry-aged limited variant adds high-end appeal to a casual-format restaurant.",
+      "list_appearances": [
+        "The Infatuation – 20 Best Burgers NYC #8"
+      ],
+      "sources": [
+        {
+          "name": "The Infatuation – 20 Best Burgers NYC",
+          "url": "https://www.theinfatuation.com/new-york/guides/best-burger-nyc"
+        },
+        {
+          "name": "The Infatuation – Cozy Royale Review (Feb 2026)",
+          "url": "https://www.theinfatuation.com/new-york/reviews/cozy-royale"
+        },
+        {
+          "name": "Cozy Royale Official Menu",
+          "url": "https://www.cozyroyale.com/menu"
+        }
+      ],
+      "image_url": "https://platform.ny.eater.com/wp-content/uploads/sites/6/2025/11/cozyroyale_IMG_2383.jpg?quality=90&strip=all&crop=0%2C12.5%2C100%2C75&w=2400",
+      "image_source_url": "https://ny.eater.com/venue/76856/cozy-royale",
+      "image_attribution": "Eater NY",
+      "image_confidence": "high",
+      "image_notes": "Eater editorial image (1075x720px) from Eater's June 2025 Icons segment on Cozy Royale's dry-aged burger. 434 Humboldt St, East Williamsburg. The dry-aged burger takes 30+ days to make and is sourced from sister butcher shop The Meat Hook. Second Eater image from November 2024: https://platform.eater.com/wp-content/uploads/sites/2/2026/03/EAT_FPS_089_THUMB_SYN.jpg"
+    },
+    {
+      "rank": 20,
+      "restaurant": "Harlem Shake",
+      "burger_name": "Hot Mess",
+      "address": "100 W 124th St, New York, NY 10027",
+      "neighborhood": "Harlem",
+      "borough": "Manhattan",
+      "lat": 40.8078,
+      "lon": -73.9483,
+      "price": 10.5,
+      "price_currency": "USD",
+      "price_approximate": false,
+      "price_note": "Beef version, confirmed via Postmates/online ordering. Also available in Impossible ($15) and veggie versions.",
+      "price_source_url": "https://postmates.com/store/harlem-shake-124th-st-&-lenox/R4LmUZxXSA-4JdtXDR2lBQ",
+      "description": "Two Pat La Frieda beef smash patties, pickled cherry pepper-bacon relish, American cheese, smoky chipotle mayo, toasted Martin's potato roll. Second location in Park Slope, Brooklyn.",
+      "score_rationale": "The Infatuation top 20 (#14). The house-made pickled cherry pepper-bacon relish is a signature NYC condiment innovation that no other burger on this list replicates. Community-first ownership model (local Harlem hiring, charitable profit sharing) adds meaningful context.",
+      "list_appearances": [
+        "The Infatuation – 20 Best Burgers NYC #14"
+      ],
+      "sources": [
+        {
+          "name": "The Infatuation – 20 Best Burgers NYC",
+          "url": "https://www.theinfatuation.com/new-york/guides/best-burger-nyc"
+        }
+      ],
+      "image_url": "https://harlemshake.com/wp-content/uploads/2021/09/4bd8df0d-0fa7-4ebf-bc34-24a391403c7a.jpeg",
+      "image_source_url": "https://harlemshake.com",
+      "image_attribution": "Harlem Shake (official website)",
+      "image_confidence": "high",
+      "image_notes": "Official image from Harlem Shake's own website (2200x1760px). 100 W 124th St, Harlem. Award-winning fast-casual smash burgers. Official menu burger PNG also available: https://harlemshake.com/wp-content/uploads/2021/08/Harlem_Classic-removebg-preview.png"
+    },
+    {
+      "rank": 21,
+      "restaurant": "Milady's",
+      "burger_name": "Milady's Burger",
+      "address": "160 Prince St, New York, NY 10012",
+      "neighborhood": "SoHo",
+      "borough": "Manhattan",
+      "lat": 40.7265,
+      "lon": -74.001,
+      "price": 20,
+      "price_currency": "USD",
+      "price_approximate": true,
+      "price_note": "Approximate; not confirmed on public menu. SoHo bar pricing tier estimate. Cocktail program by Julie Reiner (Clover Club).",
+      "price_source_url": "https://www.timeout.com/newyork/restaurants/best-burgers-nyc",
+      "description": "Double smash patties, lettuce, tomato, onion, American cheese, party sauce. SoHo bar and burger concept from hospitality stalwart Julie Reiner (Clover Club, Leyenda). Named after the historic SoHo address that operated under the same name for decades.",
+      "score_rationale": "Time Out NY #15. Julie Reiner's cocktail program parity makes this one of the best burger-plus-martini pairings in the city. The double smash with party sauce is clean and well-executed; SoHo location fills a geographic gap in the city's top smashburger coverage.",
+      "list_appearances": [
+        "Time Out New York – 16 Best Burgers NYC #15"
+      ],
+      "sources": [
+        {
+          "name": "Time Out New York – 16 Best Burgers (#15)",
+          "url": "https://www.timeout.com/newyork/restaurants/best-burgers-nyc"
+        }
+      ],
+      "image_url": "https://media.timeout.com/images/105990892/750/422/image.jpg",
+      "image_source_url": "https://www.timeout.com/newyork/restaurants/miladys",
+      "image_attribution": "Time Out New York",
+      "image_confidence": "high",
+      "image_notes": "Time Out New York editorial image (3000x2003px) from the restaurant review of Milady's (160 Prince St, SoHo). The Milady's burger ($23) features two lightly smashed patties, American cheese, lettuce, tomato, onion, and party sauce. Second Time Out image: https://media.timeout.com/images/105990892/750/422/image.jpg"
+    },
+    {
+      "rank": 22,
+      "restaurant": "Diner",
+      "burger_name": "Burger",
+      "address": "85 Broadway, Brooklyn, NY 11211",
+      "neighborhood": "Williamsburg",
+      "borough": "Brooklyn",
+      "lat": 40.7103,
+      "lon": -73.9622,
+      "price": 24,
+      "price_currency": "USD",
+      "price_approximate": true,
+      "price_note": "Approximate; menu changes nightly, written on tablecloth by server. Historical range $18–24 per reviews.",
+      "price_source_url": "https://www.theinfatuation.com/new-york/reviews/diner",
+      "description": "Grass-fed beef patty on the only permanent menu item in a fully rotating daily format. Servers write the night's menu on your paper tablecloth. Located in a converted 1920s dining car under the Williamsburg Bridge.",
+      "score_rationale": "The Infatuation top 20 (#15); praised by Eater and NYT over more than a decade. The burger is the sole constant on a changing menu—a signal of supreme institutional confidence. One of Brooklyn's most storied restaurants.",
+      "list_appearances": [
+        "The Infatuation – 20 Best Burgers NYC #15"
+      ],
+      "sources": [
+        {
+          "name": "The Infatuation – 20 Best Burgers NYC",
+          "url": "https://www.theinfatuation.com/new-york/guides/best-burger-nyc"
+        },
+        {
+          "name": "The Infatuation – Diner Review",
+          "url": "https://www.theinfatuation.com/new-york/reviews/diner"
+        }
+      ],
+      "image_url": "https://i.ytimg.com/vi/xf2vOqT3u9A/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBfOpoCLeoRyBGVZYiNzpr-KFU1MQ",
+      "image_source_url": "https://www.youtube.com/watch?v=xf2vOqT3u9A",
+      "image_attribution": "YouTube / Diner burger feature",
+      "image_confidence": "medium",
+      "image_notes": "New York Magazine editorial image (1200x630px) of Diner at 85 Broadway, Williamsburg, Brooklyn. The burger is the only permanent menu item — thick patty with sharp cheese, soft bun, served with crispy fries. The Infatuation CDN also has an interior image: https://res.cloudinary.com/the-infatuation/image/upload/q_auto,f_auto/NoahDevereaux_Diner_037_Interior_lohfbo (interior shot). Note: may show interior rather than the burger specifically."
+    },
+    {
+      "rank": 23,
+      "restaurant": "L'Artusi",
+      "burger_name": "L'Burger",
+      "address": "228 W 10th St, New York, NY 10014",
+      "neighborhood": "West Village",
+      "borough": "Manhattan",
+      "lat": 40.7341,
+      "lon": -74.0048,
+      "price": 28,
+      "price_currency": "USD",
+      "price_approximate": true,
+      "price_note": "Approximate; brunch/lunch only. West Village Italian restaurant tier pricing. Current price not confirmed on public menu.",
+      "price_source_url": "https://www.theinfatuation.com/new-york/guides/best-burger-nyc",
+      "description": "Thick juicy patty engulfed in creamy taleggio, peppery arugula, chili aioli, crispy rosemary potatoes (not fries). Available at brunch and lunch only. From a beloved West Village Italian restaurant.",
+      "score_rationale": "The Infatuation top 20 (#16). Taleggio is the key differentiator—funky, melty, and unlike any cheese used in other top NYC burgers. Rosemary potatoes instead of fries reflect the Italian restaurant DNA. Brunch-only availability creates appointment dining.",
+      "list_appearances": [
+        "The Infatuation – 20 Best Burgers NYC #16"
+      ],
+      "sources": [
+        {
+          "name": "The Infatuation – 20 Best Burgers NYC",
+          "url": "https://www.theinfatuation.com/new-york/guides/best-burger-nyc"
+        }
+      ],
+      "image_url": "https://diningout.com/wp-content/uploads/2026/04/Lartusi_burger_NYC-copy.jpeg",
+      "image_source_url": "https://diningout.com/new-yorks-best-burgers-found-in-the-most-unlikely-places/",
+      "image_attribution": "DiningOut",
+      "image_confidence": "medium",
+      "image_notes": "Editorial image (1200x815px) of the L'Artusi L'Burger from DiningOut's April 2026 feature. 228 W 10th St, West Village. Taleggio, chili aioli, heirloom tomato, arugula, served with crispy rosemary potatoes. Available brunch/lunch only. The Infatuation review credits photo to Kate Previte but no direct URL. Also on L'Artusi Instagram: https://www.instagram.com/p/C0za7_mvG0Q/"
+    },
+    {
+      "rank": 24,
+      "restaurant": "Blue Collar Burger",
+      "burger_name": "Flat Top Burger",
+      "address": "Multiple Brooklyn locations (Bushwick, Cobble Hill, Greenpoint, Williamsburg)",
+      "neighborhood": "Multiple Brooklyn neighborhoods",
+      "borough": "Brooklyn",
+      "lat": 40.7071,
+      "lon": -73.9355,
+      "price": 8.25,
+      "price_currency": "USD",
+      "price_approximate": false,
+      "price_note": "Confirmed by Time Out NY editorial. Available single and double, with or without cheese.",
+      "price_source_url": "https://www.timeout.com/newyork/restaurants/best-burgers-nyc",
+      "description": "Brisket-blend smash, flat-top griddled, American cheese, lettuce, tomato, pickle, onions, special sauce, potato bun. Counter service. Multiple Brooklyn locations.",
+      "score_rationale": "Time Out NY #13. At $8.25, the best-value smashburger on this list aside from Hamburger America. Brisket blend adds richness that pure chuck cannot match. Multiple Brooklyn locations provide accessibility across the outer-borough audience.",
+      "list_appearances": [
+        "Time Out New York – 16 Best Burgers NYC #13"
+      ],
+      "sources": [
+        {
+          "name": "Time Out New York – 16 Best Burgers (#13)",
+          "url": "https://www.timeout.com/newyork/restaurants/best-burgers-nyc"
+        }
+      ],
+      "image_url": "https://burgerweekly.com/wp-content/uploads/2014/06/Blue-Collar.jpg.jpg",
+      "image_source_url": "https://burgerweekly.com/blue-collar/",
+      "image_attribution": "Burger Weekly",
+      "image_confidence": "medium",
+      "image_notes": "Burger Weekly editorial image of Blue Collar Burger's classic griddle-cooked cheeseburger. Multiple Brooklyn locations (160 Havemeyer St Williamsburg, 187 Court St Cobble Hill, 1554 DeKalb Ave Bushwick). Classic American roadside-style griddle burger, soft potato bun. Also TripAdvisor user photo: https://media-cdn.tripadvisor.com/media/photo-s/0e/be/93/fd/photo0jpg.jpg"
+    },
+    {
+      "rank": 25,
+      "restaurant": "Cervo's",
+      "burger_name": "Lamb Burger",
+      "address": "43 Canal St, New York, NY 10002",
+      "neighborhood": "Dimes Square",
+      "borough": "Manhattan",
+      "lat": 40.7168,
+      "lon": -73.9997,
+      "price": 22,
+      "price_currency": "USD",
+      "price_approximate": true,
+      "price_note": "Approximate; add marinated anchovies +$3. Dimes Square natural wine bar tier pricing.",
+      "price_source_url": "https://www.theinfatuation.com/new-york/guides/best-burger-nyc",
+      "description": "Ground lamb patty (not beef), celery-forward slaw, aioli. Optional marinated anchovies ($3). Portuguese-inflected Dimes Square natural wine bar where cheese is considered unnecessary.",
+      "score_rationale": "The Infatuation top 20 (#7). The only lamb burger on any major NYC best-of list and the most distinctive flavor profile in the entire dataset. The tinned-fish and lamb combination is a natural wine bar conception that no competitor offers—conceptually irreplaceable.",
+      "list_appearances": [
+        "The Infatuation – 20 Best Burgers NYC #7"
+      ],
+      "sources": [
+        {
+          "name": "The Infatuation – 20 Best Burgers NYC",
+          "url": "https://www.theinfatuation.com/new-york/guides/best-burger-nyc"
+        }
+      ],
+      "image_url": "https://media-cdn.tripadvisor.com/media/photo-s/11/cc/14/39/grass-fed-lamb-burger.jpg",
+      "image_source_url": "https://www.tripadvisor.com/Restaurant_Review-g60763-d12972291-Reviews-Cervo_s-New_York_City_New_York.html",
+      "image_attribution": "TripAdvisor / Cervo's",
+      "image_confidence": "medium",
+      "image_notes": "TripAdvisor user photo captioned 'grass-fed lamb burger' at Cervo's (43 Canal St, Dimes Square / Lower East Side). The lamb burger with optional anchovies is the standout item at this Michelin Bib Gourmand Iberian seafood restaurant. The Infatuation's Teddy Wolff rates it 9.0 and notes it originated at Hart's in Bed-Stuy. Official Cervo's Instagram: https://www.instagram.com/p/Ch2xmkFvgzA/ (lamb burger image, Aug 2022)."
+    }
+  ]
+}
