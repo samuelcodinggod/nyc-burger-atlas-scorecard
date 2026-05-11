@@ -26,6 +26,13 @@ export interface Burger {
   image_attribution?: string;
   image_confidence?: string;
   image_notes?: string;
+  /** Optional alternate image used inside the circular map marker (when the main
+   * image is too wide / contextual to crop well). Falls back to image_url. */
+  marker_image_url?: string;
+  /** Optional CSS object-position for the marker image (e.g. "center 45%"). */
+  marker_object_position?: string;
+  /** Optional zoom factor for the marker image (1 = no zoom, 1.25 = zoom 25%). */
+  marker_zoom?: number;
 }
 
 export interface BurgersFile {

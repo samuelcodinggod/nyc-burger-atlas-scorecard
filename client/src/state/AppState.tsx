@@ -3,7 +3,6 @@ import type { Burger, Participant, Rating } from '@/types/burger';
 import burgersJson from '@/data/burgers.json';
 import { pickColor } from '@/lib/burger-utils';
 
-type ViewMode = 'map' | 'list';
 type Panel = 'detail' | 'scorecard';
 type SortMode = 'editorial' | 'group' | 'price-asc' | 'price-desc';
 
@@ -11,8 +10,6 @@ interface AppStateValue {
   burgers: Burger[];
   selectedRank: number | null;
   setSelectedRank: (rank: number | null) => void;
-  viewMode: ViewMode;
-  setViewMode: (m: ViewMode) => void;
   panel: Panel;
   setPanel: (p: Panel) => void;
   sortMode: SortMode;
@@ -38,7 +35,6 @@ export function AppStateProvider({ children }: { children: ReactNode }) {
   );
 
   const [selectedRank, setSelectedRank] = useState<number | null>(1);
-  const [viewMode, setViewMode] = useState<ViewMode>('map');
   const [panel, setPanel] = useState<Panel>('detail');
   const [sortMode, setSortMode] = useState<SortMode>('editorial');
   const [participants, setParticipants] = useState<Participant[]>([]);
@@ -86,8 +82,6 @@ export function AppStateProvider({ children }: { children: ReactNode }) {
     burgers,
     selectedRank,
     setSelectedRank,
-    viewMode,
-    setViewMode,
     panel,
     setPanel,
     sortMode,

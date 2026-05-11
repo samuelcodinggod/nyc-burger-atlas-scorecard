@@ -1,8 +1,7 @@
 import { useAppState } from '@/state/AppState';
-import { Map as MapIcon, List, Moon, Sun, ClipboardList, Info } from 'lucide-react';
+import { Moon, Sun, ClipboardList, Info } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { useEffect, useState } from 'react';
-import { cn } from '@/lib/utils';
 import { Logo } from '@/components/Logo';
 import {
   DropdownMenu,
@@ -14,8 +13,7 @@ import {
 } from '@/components/ui/dropdown-menu';
 
 export function Header({ onShowAbout }: { onShowAbout: () => void }) {
-  const { viewMode, setViewMode, sortMode, setSortMode, panel, setPanel, participants } =
-    useAppState();
+  const { sortMode, setSortMode, panel, setPanel, participants } = useAppState();
   const [dark, setDark] = useState<boolean>(() =>
     typeof window !== 'undefined'
       ? window.matchMedia('(prefers-color-scheme: dark)').matches
@@ -43,15 +41,6 @@ export function Header({ onShowAbout }: { onShowAbout: () => void }) {
         </h1>
 
         <div className="flex-1" />
-
-        <div className="inline-flex items-center rounded-lg border border-border bg-background p-0.5">
-          <SegButton active={viewMode === 'map'} onClick={() => setViewMode('map')} data-testid="button-view-map">
-            <MapIcon className="size-3.5" /> Map
-          </SegButton>
-          <SegButton active={viewMode === 'list'} onClick={() => setViewMode('list')} data-testid="button-view-list">
-            <List className="size-3.5" /> List
-          </SegButton>
-        </div>
 
         <DropdownMenu>
           <DropdownMenuTrigger asChild>
@@ -119,26 +108,6 @@ export function Header({ onShowAbout }: { onShowAbout: () => void }) {
         </Button>
       </div>
     </header>
-  );
-}
-
-function SegButton({
-  active,
-  children,
-  ...rest
-}: React.ButtonHTMLAttributes<HTMLButtonElement> & { active: boolean }) {
-  return (
-    <button
-      {...rest}
-      className={cn(
-        'inline-flex items-center gap-1.5 px-2.5 py-1.5 rounded-md text-[12px] font-semibold transition-colors',
-        active
-          ? 'bg-primary text-primary-foreground shadow-sm'
-          : 'text-foreground/70 hover:text-foreground'
-      )}
-    >
-      {children}
-    </button>
   );
 }
 

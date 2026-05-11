@@ -29,7 +29,7 @@ export function BurgerList() {
   }, [burgers, ratings]);
 
   return (
-    <div className="h-full overflow-y-auto scroll-thin" data-testid="burger-list">
+    <div data-testid="burger-list">
       <ul className="divide-y divide-border">
         {ordered.map((b, idx) => {
           const isSel = b.rank === selectedRank;

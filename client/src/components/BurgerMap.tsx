@@ -15,7 +15,7 @@ function escapeAttr(s: string): string {
 }
 
 function buildIcon(burger: Burger, selected: boolean, top: boolean) {
-  const size = selected ? 60 : top ? 54 : 46;
+  const size = selected ? 64 : top ? 56 : 48;
   const classes = [
     'burger-pin-photo',
     top ? 'is-top' : '',
@@ -25,14 +25,21 @@ function buildIcon(burger: Burger, selected: boolean, top: boolean) {
     .join(' ');
 
   const alt = escapeAttr(`${burger.restaurant} burger`);
-  const photo = burger.image_url
-    ? `<img class="burger-pin-img" src="${escapeAttr(burger.image_url)}" alt="${alt}" referrerpolicy="no-referrer" loading="lazy" onerror="this.parentElement.classList.add('burger-pin-fallback');this.remove();" />`
+  const src = burger.marker_image_url || burger.image_url;
+  // Bias the crop slightly toward the upper-middle (burgers usually sit there in
+  // editorial shots). Authors can override per-burger via marker_object_position.
+  const objectPosition = burger.marker_object_position || 'center 42%';
+  // Scale up to push out empty plate / table edges. Authors can override per-burger.
+  const zoom = typeof burger.marker_zoom === 'number' ? burger.marker_zoom : 1.18;
+
+  const photo = src
+    ? `<img class="burger-pin-img" src="${escapeAttr(src)}" alt="${alt}" referrerpolicy="no-referrer" loading="lazy" style="object-position:${escapeAttr(objectPosition)};transform:scale(${zoom});" onerror="this.parentElement.classList.add('burger-pin-fallback');this.remove();" />`
     : '';
   const fallbackInitial = escapeAttr(burger.restaurant.charAt(0).toUpperCase() || '•');
 
   return L.divIcon({
     className: 'burger-pin',
-    html: `<div class="${classes}" style="width:${size}px;height:${size}px;" role="button" aria-label="Rank ${burger.rank} — ${alt}">${photo}<span class="burger-pin-fallback-letter">${fallbackInitial}</span><span class="burger-pin-rank" aria-hidden="true">${burger.rank}</span></div>`,
+    html: `<div class="${classes}" style="width:${size}px;height:${size}px;" role="button" aria-label="Rank ${burger.rank} — ${alt}"><div class="burger-pin-img-wrap">${photo}<span class="burger-pin-fallback-letter">${fallbackInitial}</span></div><span class="burger-pin-rank" aria-hidden="true">${burger.rank}</span></div>`,
     iconSize: [size, size],
     iconAnchor: [size / 2, size / 2],
     popupAnchor: [0, -size / 2],
@@ -50,6 +57,23 @@ function FlyToSelected({ burgers, selectedRank }: { burgers: Burger[]; selectedR
     if (!b) return;
     map.flyTo([b.lat, b.lon], Math.max(map.getZoom(), 13), { duration: 0.7 });
   }, [selectedRank, burgers, map]);
+  return null;
+}
+
+// On window resize / container resize, leaflet sometimes ends up with stale
+// dimensions when the map is inside a flex column. Force invalidateSize.
+function InvalidateOnResize() {
+  const map = useMap();
+  useEffect(() => {
+    const onResize = () => map.invalidateSize();
+    window.addEventListener('resize', onResize);
+    // Initial invalidate after mount so the new map-first layout sizes correctly.
+    const t = setTimeout(() => map.invalidateSize(), 50);
+    return () => {
+      window.removeEventListener('resize', onResize);
+      clearTimeout(t);
+    };
+  }, [map]);
   return null;
 }
 
@@ -78,6 +102,7 @@ export function BurgerMap() {
           maxZoom={19}
         />
         <FlyToSelected burgers={burgers} selectedRank={selectedRank} />
+        <InvalidateOnResize />
         {burgers.map((b) => (
           <Marker
             key={b.rank}
