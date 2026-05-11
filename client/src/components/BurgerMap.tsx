@@ -4,19 +4,38 @@ import L from 'leaflet';
 import { useAppState } from '@/state/AppState';
 import type { Burger } from '@/types/burger';
 
-function buildIcon(rank: number, selected: boolean, top: boolean) {
+// Escape any characters that could break HTML attribute context inside divIcon markup.
+function escapeAttr(s: string): string {
+  return s
+    .replace(/&/g, '&amp;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&#39;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;');
+}
+
+function buildIcon(burger: Burger, selected: boolean, top: boolean) {
+  const size = selected ? 60 : top ? 54 : 46;
   const classes = [
-    'burger-pin-inner',
+    'burger-pin-photo',
     top ? 'is-top' : '',
     selected ? 'is-selected' : '',
   ]
     .filter(Boolean)
     .join(' ');
+
+  const alt = escapeAttr(`${burger.restaurant} burger`);
+  const photo = burger.image_url
+    ? `<img class="burger-pin-img" src="${escapeAttr(burger.image_url)}" alt="${alt}" referrerpolicy="no-referrer" loading="lazy" onerror="this.parentElement.classList.add('burger-pin-fallback');this.remove();" />`
+    : '';
+  const fallbackInitial = escapeAttr(burger.restaurant.charAt(0).toUpperCase() || '•');
+
   return L.divIcon({
     className: 'burger-pin',
-    html: `<div class="${classes}" aria-label="Rank ${rank}">${rank}</div>`,
-    iconSize: [32, 32],
-    iconAnchor: [16, 16],
+    html: `<div class="${classes}" style="width:${size}px;height:${size}px;" role="button" aria-label="Rank ${burger.rank} — ${alt}">${photo}<span class="burger-pin-fallback-letter">${fallbackInitial}</span><span class="burger-pin-rank" aria-hidden="true">${burger.rank}</span></div>`,
+    iconSize: [size, size],
+    iconAnchor: [size / 2, size / 2],
+    popupAnchor: [0, -size / 2],
   });
 }
 
@@ -63,7 +82,8 @@ export function BurgerMap() {
           <Marker
             key={b.rank}
             position={[b.lat, b.lon]}
-            icon={buildIcon(b.rank, b.rank === selectedRank, b.rank <= 3)}
+            icon={buildIcon(b, b.rank === selectedRank, b.rank <= 3)}
+            zIndexOffset={b.rank === selectedRank ? 1000 : b.rank <= 3 ? 200 : 0}
             eventHandlers={{
               click: () => {
                 setSelectedRank(b.rank);
